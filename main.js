@@ -59,6 +59,10 @@ b2.addEventListener("click", function() {
     //     window.location.replace("https://google.com")
     //  }
 })
+b3.addEventListener("click", function() {
+    p3.classList.add("dn")
+    p4.classList.remove("dn")
+})
 
 b4.addEventListener("click", function () {
   const userAnswer = Number(i4.value);
